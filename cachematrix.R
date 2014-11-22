@@ -1,9 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## R Programming - Programming assignment 2: Caching the inverse of a matrix 
+## rather than computing it repeatedly
 
 ## This function creates a special "matrix" object
 ## that can cache its inverse.
-
 makeCacheMatrix <- function(x = matrix()) {
     
     # Initialize variable for cached inverse matrix
